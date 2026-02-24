@@ -7,7 +7,8 @@ A lightweight, reusable Bash script for automating regression testing of command
 
 ## Features 
 
-- **Suite-driven testing**: Reads a list of test stems from a suite file.
+- **Suite-driven testing**:
+   - Reads a list of test stems from a suite file.
 - **Flexible input model**:
    - Optional `stem.args` for command-line arguments.
    - Optional `stem.in` for standard input.
@@ -24,9 +25,11 @@ A lightweight, reusable Bash script for automating regression testing of command
   
   ```bash
   ./runSuite.sh suite-file program
+  ```
   
-- **example**:
+- **Example**:
   ./runSuite.sh suite.txt ./myprogram
+
   Where suite.txt might contain:
   test1
   test2
