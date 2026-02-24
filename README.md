@@ -20,7 +20,7 @@ A lightweight, reusable Bash script for automating regression testing of command
 - **Reusable across projects**:
    - Works with any CLI program that reads from stdin and/or argv.
      
-- ## Usage
+ ## Usage
   
   ```bash
   ./runSuite.sh suite-file program
